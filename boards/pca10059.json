@@ -4,7 +4,7 @@
     "cpu": "cortex-m4",
     "extra_flags": "-DNRF52 -DNRF52840 -DNRF52840_XXAA",
     "f_cpu": "64000000L",
-    "ldscript": "nrf52840_xxaa.ld",
+    "ldscript": "nrf52_xxaa.ld",
     "mcu": "nrf52840",
     "variant": "PCA10059"
   },
@@ -15,9 +15,7 @@
     "jlink_device": "nRF52840_xxAA",
     "svd_path": "nrf52840.svd",
     "default_tools": [
-      "openocd",
-      "jlink",
-      "blackmagic"
+      "jlink"
     ]
   },
   "frameworks": [
