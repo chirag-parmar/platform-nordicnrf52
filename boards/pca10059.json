@@ -21,7 +21,8 @@
     ]
   },
   "frameworks": [
-    "arduino"
+    "arduino",
+    "mbed"
   ],
   "name": "NRF52840 Dongle (PCA10059)",
   "upload": {
